@@ -12,7 +12,7 @@ function App() {
   return (
 
     <Router>
-      <div className='text-white bg-[linear-gradient(to_bottom,#9B849F_0%,#9B849F_1%,#99008A_100%)] h-screen'>
+      <div className='text-white bg-[linear-gradient(to_bottom,#A372ACFF,#99008A_100%)] h-screen'>
         <Header />
 
 
