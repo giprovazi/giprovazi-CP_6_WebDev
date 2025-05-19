@@ -19,7 +19,7 @@ const Header = () => {
         </button>
 
         <nav className={`  absolute left-2 top-48 w-50  z-50 ${menuOpen ? 'block' : 'hidden'} md:static md:flex md:w-auto`}>
-          <ul className='flex flex-col gap-[3rem] md:flex-row md:space-x-12 lg:space-x-16 text-5xl p-3 md:text-2xl lg:text-3xl text-white p-4 md:p-0'>
+          <ul className='flex flex-col text-purple-900 gap-[3rem] md:flex-row md:space-x-12 lg:space-x-16 text-5xl p-8 md:text-2xl lg:text-3xl bg-white rounded-lg p-4 md:p-0'>
             <li><Link to="/">Home</Link></li>
             <li><Link to="/produtos">Produtos</Link></li>
             <li><Link to="/sobre">Sobre</Link></li>

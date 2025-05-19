@@ -12,11 +12,11 @@ function App() {
   return (
 
     <Router>
-      <div className='text-white bg-[linear-gradient(to_bottom,#A372ACFF,#99008A_100%)] h-screen'>
+      <div className='text-white bg-[linear-gradient(to_bottom,#A372ACFF,#99008A_100%)] min-h-screen flex flex-col'>
         <Header />
 
 
-          <main>
+          <main className='flex-grow'>
             <Routes>
               <Route path="*" element={<Error/>} />
               <Route path="/" element={<Home />} />
